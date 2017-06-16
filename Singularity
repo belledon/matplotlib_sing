@@ -11,7 +11,7 @@ from: ubuntu:latest
 	apt-get -y install cmake
     apt-get -y install g++
     apt-get install -y python3-dev python3-pip \
-    libxft-dev libfreetype6 libfreetype6-dev
+    libxft-dev libfreetype6 libfreetype6-dev python3-tk
     apt-get clean
     locale-gen en_US.UTF-8
 
