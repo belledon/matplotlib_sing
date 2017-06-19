@@ -16,7 +16,8 @@ from: ubuntu:latest
     locale-gen en_US.UTF-8
 
     pip3 install matplotlib
-
+    pip3 install Pillow 
+    
 %environment
 	echo "Restoring environment"
 	export LC_ALL=C
